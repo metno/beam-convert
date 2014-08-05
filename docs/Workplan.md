@@ -49,3 +49,8 @@ Summer melt associated uncertainty estimation
   1. Perform comparison between Amsr2 grids and AVHRR grids
 
 Write Abstract for Barcelona meeting (do it far in advance)
+
+Questions
+---------
+
+ * What should be the analysis resolution? Native Avhrr grid or native AMSR2 grid, or 12.5km?
