@@ -5,6 +5,7 @@ Feature: Convert NOAA CLASS AVHRR L1B files to NetCDF format
 
     Scenario Outline: GAC files
         Given avhrr l1b file <avhrr_l1b_filepath>
+        Then read the input avhrr file
         Then export it as a <output_netcdf4_filepath> 
         Examples:
             | avhrr_l1b_filepath | output_netcdf4_filepath |
