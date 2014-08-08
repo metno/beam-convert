@@ -9,7 +9,7 @@ AVHRR conversion
 ----------------
 
 To convert AVHRR L1B data obtained from CLASS archive I am using BEAM software, which has a Python 2.7 API.
-To use BEAM one first has to export few shell variables, which are declared in the lib/avhrr_convert.env
+To use BEAM one first has to export few shell variables, which are declared in the lib/beam.env
 
 Software prerequisites
 ----------------------
