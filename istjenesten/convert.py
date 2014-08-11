@@ -1,4 +1,19 @@
-import beampy
+"""
+FILE:
+    convert.py
+DOCS:
+
+ Module for converting various data types
+ Currently supported:
+     NOAA CLASS AVHRR L1B data (using beampy) to NetCDF4-CF
+"""
+import os
+
+try:
+    os.environ['BEAM_HOME'] is None
+    import beampy
+except:
+    exit('Please source beam.env')
 
 def read_avhrr_l1b(filepath, driver='beam'):
     """
@@ -26,7 +41,7 @@ def read_avhrr_l1b_with_beam(filepath):
 def write_avhrr_l1b_as_netcdf(product, output_filepath, driver='beam'):
     """
     Write out AVHRR dat as netcdf
-    
+
     :param product:
         object that contains satellite information
     :param output_filepath:
@@ -35,7 +50,6 @@ def write_avhrr_l1b_as_netcdf(product, output_filepath, driver='beam'):
         driver defines which framework to use for IO
     """
     if driver is 'beam':
-        print "Driver: ", driver
         beampy.ProductIO.writeProduct(product, output_filepath, 'NetCDF4-CF')
     else:
         pass
