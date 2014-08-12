@@ -60,3 +60,7 @@ Case Studies
 
  * Compare daily vs instanteneous sea ice concentration analysis results
  * Compare 1km LAC and 4km GAC AVHRR sea ice concentration retrievals
+
+ Links
+ -----
+ * L1B records for AVHRR data may be obtaine from: [NOAA climate data records](http://www.ncdc.noaa.gov/cdr/operationalcdrs.html)
