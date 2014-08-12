@@ -10,8 +10,6 @@ Usage:
 
 import os
 import argparse
-from sys import stdout
-from time import sleep
 from istjenesten import convert
 
 def make_output_filename(input_filename, suffix=None, output_dir="."):
@@ -27,7 +25,8 @@ def process_avhrr_files(input_files, output_dir=None):
     for i, input_filename in enumerate(input_files):
         print "Processing file %i of %i: %s" % (i+1, list_length, input_filename)
         try:
-            nc_filepath = make_output_filename(input_filename, suffix="nc", output_dir=output_dir)
+            nc_filepath = make_output_filename(input_filename, suffix="nc",
+                    output_dir=output_dir)
             avhrr_product = convert.read_avhrr_l1b(input_filename)
             convert.write_avhrr_l1b_as_netcdf(avhrr_product, nc_filepath)
         except:

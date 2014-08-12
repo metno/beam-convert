@@ -35,7 +35,7 @@ Summer melt associated uncertainty estimation
 
  Dates:
   * Some time next week -- ice service training
-  
+
 
   Case study: Daily vs Swath based
 
@@ -54,3 +54,9 @@ Questions
 ---------
 
  * What should be the analysis resolution? Native Avhrr grid or native AMSR2 grid, or 12.5km?
+
+Case Studies
+------------
+
+ * Compare daily vs instanteneous sea ice concentration analysis results
+ * Compare 1km LAC and 4km GAC AVHRR sea ice concentration retrievals
