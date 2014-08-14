@@ -1,3 +1,6 @@
 *~
 *.pyc
 tags
+reports/*pdf
+*aux
+*toc
