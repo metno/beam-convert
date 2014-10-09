@@ -10,7 +10,6 @@ DOCS:
 import os
 
 try:
-    os.environ['BEAM_HOME'] is None
     import beampy
 except:
     exit('Please source beam.env')
