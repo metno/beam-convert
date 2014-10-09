@@ -12,5 +12,5 @@ accept:
 ice-arc-report:
 	pdflatex -output-directory ${REPORTS_DIR} ${REPORTS_DIR}/${REPORT_NAME}.tex
 
-jenkins:
+jenkins_behave:
 	${CWD}/jenkins_behave.sh	
