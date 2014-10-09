@@ -14,7 +14,7 @@ To use BEAM one first has to export few shell variables, which are declared in t
 Software prerequisites
 ----------------------
 
- * Java JDK. Using Java Oracle JDK 7.
+ * Java JDK. Using Java Oracle JDK 7. (package from webupd8 works just fine)
  * JPY bidirectional Python bridge. See the [docs](http://jpy.readthedocs.org/en/latest/install.html)
  * BEAM. Using BEAM-5.0.
  * Beam Python Api (beampy). Provided with the BEAM package.
