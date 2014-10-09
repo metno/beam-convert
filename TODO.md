@@ -1,0 +1,2 @@
+ - create a deb package for BEAM
+ - provision testing vagrant box, create provisioning script
