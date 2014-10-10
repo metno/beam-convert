@@ -7,10 +7,7 @@ tags:
 	ctags ${LIB_NAME}/*py
 
 accept:
-	behave
+	${CWD}/acceptance.sh
 
 ice-arc-report:
 	pdflatex -output-directory ${REPORTS_DIR} ${REPORTS_DIR}/${REPORT_NAME}.tex
-
-jenkins_behave:
-	${CWD}/jenkins_behave.sh	
