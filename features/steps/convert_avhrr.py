@@ -1,5 +1,5 @@
 import os
-from istjenesten import convert
+from beamsatconvert import convert
 
 @given(u'avhrr l1b file {avhrr_l1b_filepath}')
 def step_impl(context, avhrr_l1b_filepath):

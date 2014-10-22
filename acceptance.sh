@@ -1,3 +1,3 @@
 #!/bin/bash
-source istjenesten/beam.env
+source beamsatconvert/beam.env
 behave
