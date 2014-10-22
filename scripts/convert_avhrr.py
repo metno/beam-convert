@@ -10,7 +10,7 @@ Usage:
 
 import os
 import argparse
-from istjenesten import convert
+from beamsatconvert import convert
 
 def make_output_filename(input_filename, suffix=None, output_dir="."):
     basename = os.path.basename(input_filename)
